@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "You can download my CV as a PDF below.\n  Download CV (PDF)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi, there!",
+    "section": "",
+    "text": "Hi, there!\nI am a community ecologist broadly interested in the maintenance of diversity, especially in response to environmental gradients. Currently, I am a Research Fellow at the Department of Integrative Biology, University of Texas at Austin.\nEarlier, I was a member of the HIFMB Postdoc Pool at the Helmholtz Institute for Functional Marine Biodiversity (HIFMB), Oldenburg, Germany and an Associate Junior Fellow with the Hanse-Wissenschaftskolleg Institute for Advanced Study, Delmenhorst, Germany. I completed my Ph.D. studying multi-species competition in natural communities at the Program for Ecology, Evolutionary Biology and Behavior and the Department of Plant Biology, Michigan State University."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "My goal as a teacher is to impart a sense of wonder and curiosity about the natural world in students while teaching them to think critically in a safe and inclusive space. I believe critical thinking is essential for students to evaluate information in other domains, consequently developing them into engaged citizens.\nIn my teaching, I am particularly passionate about engaging with empirical ecologists on two fronts: ecological theory and experimental design. I enjoy working with empirical ecologists to explore the role that theory can play in their own research and helping them resource-efficient, informative experiments to test the theory."
+  },
+  {
+    "objectID": "teaching.html#workshops",
+    "href": "teaching.html#workshops",
+    "title": "Teaching",
+    "section": "Workshops",
+    "text": "Workshops\n\nEcological theory for everyone: A practical introduction to engaging with theory in your own research, for those with little or no theoretical experience ESA Annual Meeting, Salt Lake City · 2026\nRole: Co-instructor Instructors: Caroline Farrior, Ravi Ranjan, Robin Decker, Sun Yi Soh\n\n\nHow to design better experiments? GLEON Limnoseries · September 2025\nRole: Instructor Presented with Mridul Thomas\n\nCode » Recording »"
+  },
+  {
+    "objectID": "teaching.html#michigan-state-university",
+    "href": "teaching.html#michigan-state-university",
+    "title": "Teaching",
+    "section": "Michigan State University",
+    "text": "Michigan State University\nTeaching Fellow in the Enhancing Linkages Between Mathematics and Ecology (ELME) program.\n\nTheoretical Population and Community Ecology ELME · Summer 2019\nRole: Teaching Fellow Instructor: Thomas Koffel\n\n\nIntroduction to Meta-Analysis in Ecology ELME · Summer 2019\nRole: Teaching Fellow Instructor: Craig Osenberg\n\n\nIntroduction to Theoretical Ecology: Populations and Species Interactions ELME · Summer 2018\nRole: Teaching Fellow Instructor: Chad Brassil\n\n\nBayesian Models in Ecology ELME · Summer 2018\nRole: Teaching Fellow Instructor: Inés Ibáñez\n\n\nStructured Demographic Models for Population, Community, and Evolutionary Ecology ELME · Summer 2018\nRole: Teaching Fellow Instructor: Tom E. X. Miller"
+  },
+  {
+    "objectID": "teaching.html#indian-institute-of-science-bangalore",
+    "href": "teaching.html#indian-institute-of-science-bangalore",
+    "title": "Teaching",
+    "section": "Indian Institute of Science, Bangalore",
+    "text": "Indian Institute of Science, Bangalore\n\nEC 201: Theoretical and Mathematical Ecology An introductory course on theory in ecology for undergraduate and graduate students\nRole: Teaching Assistant Instructor: Vishwesha Guttal"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My primary research goal is to understand and predict the outcome of eco-evolutionary processes maintaining our stunning natural diversity in a rapidly changing world. I work on primary producers such as phytoplankton and terrestrial plants, as they have outsized impacts on global carbon dynamics. I aim to understand how primary producer species coexist across environmental gradients and predict how they will change as climate change alters natural environmental gradients. I focus on key environmental drivers such as temperature, nutrient and light that have easily measurable physiological responses in primary producers and examine how these physiological responses scale up to determine species coexistence."
+  },
+  {
+    "objectID": "research.html#projects",
+    "href": "research.html#projects",
+    "title": "Research",
+    "section": "Projects",
+    "text": "Projects\n\nMulti-species coexistence in natural communities\nInterspecific competition is universal and structures natural communities across taxa. Our current understanding of competition comes from traditional ecological theory focusing primarily on mathematical models of species pairs. However, natural communities consist of tens to hundreds of species. I have addressed this knowledge gap by studying multi-species competition: 1) alongside evolution and the resulting trait patterns, 2) along nutrient gradients and grazers and 3) in three-species communities.\nCollaborators: Thomas Koffel, Chris Klausmeier\nKey papers: Ranjan and Klausmeier 2022, Ranjan et al. 2024, Ranjan and Bagchi 2016\n\n\n\nThree-species Lotka-Volterra competition outcomes when intransitivity is present\n\n\n\n\nImpacts of multiple interactive environmental drivers on marine phytoplankton communities\nCommunity-level responses to environmental change ultimately depend on how individual organisms respond to altered conditions. Further, environmental change is rarely through a single driver, even though it is usually studied that way. I am working on developing mechanistic, physiological models of phytoplankton that predict growth based on physiological processes including photosynthesis, respiration and nutrient uptake. Thus, these models scale up from physiological responses of phytoplankton to population growth rate and coexistence of species in a community.\nCollaborators: Alexey Ryabov, Helmut Hillebrand, Mridul Thomas, Bernd Blasius, Kim Halsey, Miriam Seifert\nKey paper: Ranjan et al. 2026\n\n\n\nInfluence of dilution rate on optimal allocation of carbon towards the Pentose Phosphate Pathway and nitrogen towards nutrient uptake in a chemostat as predicted by a) our model and b) empirical validation.\n\n\n\n\nForest dynamics\nTerrestrial forests store about two-thirds of terrestrial biodiversity and half of terrestrial carbon, making them important in the global carbon cycle. However, forest dynamics in our Earth Systems Models can often be quite simplistic, often sacrificing realism for ease of use. A current challenge for forest dynamics models is to find the sweet spot between ecological realism and scalability. A promising avenue of research is the Perfect Plasticity Approximation (PPA) model which assumes that competition for light drives forest dynamics. The PPA model explains tree size distributions on a temperate forest and a tropical forest quite well. I am working towards generalizing this model across several other temperate and tropical forest sites to understand the key processes driving differences between temperate and tropical forests.\nCollaborator: Caroline Farrior\n\n\nOptimal experimental design\nSpecies growth rates always depend on multiple interacting environmental drivers. However, experiments with multiple drivers grow too unwieldy and are therefore rare. To solve this problem, I used Design Of Experiments (DOE) theory to optimize experimental designs to maximize information gained per measurement made. I showed that the resulting optimal designs are vastly superior to common designs such as ANOVA and marginally better than resource intensive designs like full factorials. I have also developed optimal designs for common single-factor experiments such as measuring growth against nutrients, light, temperature and toxins.\nCollaborator: Mridul Thomas\nKey papers: Thomas and Ranjan 2024, Ranjan and Thomas 2026\n\n\n\nBayesian optimal design for a Monod experiment when compared to a uniform design in terms of parameter estimation and prediction ability"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "For an always-current list, see my Google Scholar profile. Drafts of in-preparation manuscripts are available on request. Feel free to send me an email to request a PDF if you can’t access one."
+  },
+  {
+    "objectID": "publications.html#preprints",
+    "href": "publications.html#preprints",
+    "title": "Publications",
+    "section": "Preprints",
+    "text": "Preprints\n\nRanjan R, Ryabov A, Halsey K, Hillebrand H, Thomas MK, Blasius B. A growth–maintenance tradeoff determines nutrient-limited growth in phytoplankton. bioRxiv (2026).\n\nMultiple drivers\n\n\nPreprint » Code »\n\n\nTL;DR\n\n\nNutrient-limited growth in phytoplankton reflects a tradeoff between carbon and nitrogen acquisition.\n\n\n\n\nPlain-language summary\n\n\nPhytoplankton form the base of aquatic food webs and pull large amounts of carbon out of the atmosphere. We show that a tradeoff determines their growth rate when nutrients are scarce: carbon and nitrogen spent on population growth cannot also be spent on the basic upkeep of staying alive. Building this tradeoff into our models explains physiological allocations of carbon and nitrogen as measured in lab experiments.\n\n\n\n\n\nRanjan R*, Thomas M*. Improving the efficiency of single-driver ecological experiments with Bayesian optimal experimental design. bioRxiv (2026). *equal contribution\n\nExperimental design\n\n\nPreprint » Code to reproduce the paper » Code to explore Bayesian optimal designs »\n\n\nTL;DR\n\n\nBayesian optimal experimental designs are better than commonly used uniform designs for common single-driver ecological experiments for parameter estimation and predictive ability.\n\n\n\n\nPlain-language summary\n\n\nEcological experiments are expensive, so it matters where you place your measurements. We use a statistical method called Bayesian optimal experimental design to choose the most informative measurement points in advance. We show that Bayesian optimal designs outperform commonly used uniform designs in estimating parameters and predicting growth. This lets researchers learn more about how an environmental driver affects organisms without running larger or costlier experiments."
+  },
+  {
+    "objectID": "publications.html#journal-articles",
+    "href": "publications.html#journal-articles",
+    "title": "Publications",
+    "section": "Journal articles",
+    "text": "Journal articles\n\nRanjan R, Koffel T, Klausmeier C. The three-species problem: incorporating competitive asymmetry and intransitivity in modern coexistence theory. Ecology Letters 27(4): e14426 (2024).\n\nSpecies coexistence\n\n\nArticle » Code »\n\n\nTL;DR\n\n\nWe mapped all the outcomes of three-species Lotka-Volterra competition in terms of two existing pairwise Modern Coexistence Theory (MCT) metrics (niche overlap and fitness differences) and a new triplet-only metric called cyclic asymmetry.\n\n\n\n\nPlain-language summary\n\n\nClassic ecological theory about competition is built mostly on pairs of species. We studied trios and thoroughly documented all possible competition outcomes. We showed that pair-based ecological theory cannot explain some three-species competition outcomes. We then plugged this gap by building additional theory relevant to three-species competition. This helps explain the diversity we see in real communities.\n\n\n\n\n\nThomas M*, Ranjan R*. Designing more informative multiple-driver experiments. Annual Review of Marine Science 16: 513–536 (2024). *equal contribution\n\nExperimental design Multiple drivers\n\n\nArticle »\n\n\nTL;DR\n\n\nRecommendations for designing experiments that reveal how multiple environmental drivers interact including a statistical framework new to ecology.\n\n\n\n\nPlain-language summary\n\n\nIn nature, marine species rarely face just one stressor — temperature, light and nutrients change all at once. Experiments testing how these drivers combine and interact are large and expensive, therefore are rarely done. We recommend how to design experiments that reveal how several drivers interact, rather than testing them one at a time. Better designs mean clearer answers about how ecosystems respond to global change.\n\n\n\n\n\nWierenga J, Thomas M, Ranjan R, Ibelings B. Complex effects of chytrids on Planktothrix growth across interacting temperature and light gradients. ISME Communications 2, 93 (2022).\n\nMultiple drivers\n\n\nArticle »\n\n\nTL;DR\n\n\nUsing an experiment and a mathematical model exploring the temperature and light dependence of host-parasite dynamics, we show that the reason why the toxic bloom-forming cyanobacterium P. rubescens is mainly found in the relatively cold and dark lake metalimnion might be to avoid its chytrid parasite.\n\n\n\n\nPlain-language summary\n\n\nCyanobacteria (often called blue-green algae) can be attacked by fungal parasites called chytrids. We found that the effect of these parasites on algal growth is not fixed — it changes depending on the combination of temperature and light. The toxic cyanobacterium P. rubescens is usually only found in the dark, cold middle layer of a lake. We show that this could be because the cyanomacterium can avoid the parasite there. Predicting parasite impacts therefore requires considering the whole environment, not one factor at a time.\n\n\n\n\n\nRanjan R, Klausmeier C. How the resource supply distribution structures competitive communities. Journal of Theoretical Biology 538: 111054 (2022).\n\nSpecies coexistence\n\n\nArticle »\n\n\nTL;DR\n\n\nThe shape of the resource-supply distribution, not just its level, determines the traits of the competing species that survive.\n\n\n\n\nPlain-language summary\n\n\nWhich species win in competition depends on the resources available. We show that the way the resource supply is spread out among resources of different types decides which competitors can coexist and what their traits are. This reframes how we think about competition in variable environments.\n\n\n\n\n\nRanjan R, Bagchi S. Functional response and body size in consumer–resource interactions: unimodality favors facilitation. Theoretical Population Biology 110: 25–35 (2016).\n\nSpecies coexistence\n\n\nArticle »\n\n\nTL;DR\n\n\nWhen consumer functional responses are unimodal, the interaction between two competitors can shift from competition to facilitation.\n\n\n\n\nPlain-language summary\n\n\nWhen two consumer species compete for the same resource, classic ecological theory usually predict that one drives the other extinct. However, this prediction is made under the assumption that more resource concentration will lead to more consumption of the resource by a consumer. Sometimes, too much resource can become toxic and can lead to lesser consumption by the consumer. Under these conditions, the two competitors can actually help each other persist. This reveals a previously unknown route to coexistence."
+  },
+  {
+    "objectID": "publications.html#in-preparation",
+    "href": "publications.html#in-preparation",
+    "title": "Publications",
+    "section": "In preparation",
+    "text": "In preparation\n\nRanjan R, Koffel T, Klausmeier C. Multi-species coexistence along nutrient gradients. In prep. Draft available on request.\n\nSpecies coexistence"
+  }
+]
