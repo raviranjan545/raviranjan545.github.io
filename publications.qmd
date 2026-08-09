@@ -1,0 +1,295 @@
+---
+title: "Publications"
+toc: false
+---
+
+For an always-current list, see my [Google Scholar](https://scholar.google.com/citations?hl=en&user=VPfJ8AsAAAAJ) profile. Drafts of in-preparation manuscripts are available on request. Feel free to send me an email to request a PDF if you can't access one. 
+
+```{=html}
+<div class="pub-filter">
+<button class="pub-filter-btn active" data-filter="__all__">All</button>
+<button class="pub-filter-btn" data-filter="Species coexistence">Species coexistence</button>
+<button class="pub-filter-btn" data-filter="Multiple drivers">Multiple drivers</button>
+<button class="pub-filter-btn" data-filter="Experimental design">Experimental design</button>
+</div>
+```
+
+## Preprints
+
+::::::: {.pub-item data-categories="phytoplankton"}
+**Ranjan R**, [Ryabov A](https://scholar.google.com/citations?user=Dd4l-QEAAAAJ&hl=en&authuser=1), [Halsey K](https://microbiology.oregonstate.edu/directory/kimberly-h-halsey), [Hillebrand H](https://hifmb.de/people/helmut-hillebrand/), [Thomas MK](https://www.mridulkthomas.com/), [Blasius B](https://www.berndblasius.de). A growth–maintenance tradeoff determines nutrient-limited growth in phytoplankton. *bioRxiv* (2026).
+
+::: pub-cats
+[Multiple drivers]{.pub-cat}
+:::
+
+::::: pub-actions
+<a href="https://doi.org/10.64898/2026.06.01.729340" target="_blank" rel="noopener">Preprint »</a> <a href="https://github.com/raviranjan545/Carbon_Budget_Model" target="_blank" rel="noopener">Code »</a>
+
+<details>
+
+<summary>TL;DR</summary>
+
+::: pub-reveal
+Nutrient-limited growth in phytoplankton reflects a tradeoff between carbon and nitrogen acquisition.
+:::
+
+</details>
+
+<details>
+
+<summary>Plain-language summary</summary>
+
+::: pub-reveal
+Phytoplankton form the base of aquatic food webs and pull large amounts of carbon out of the atmosphere. We show that a tradeoff determines their growth rate when nutrients are scarce: carbon and nitrogen spent on population growth cannot also be spent on the basic upkeep of staying alive. Building this tradeoff into our models explains physiological allocations of carbon and nitrogen as measured in lab experiments.
+:::
+
+</details>
+:::::
+:::::::
+
+::::::: {.pub-item data-categories="experimental-design"}
+**Ranjan R**\*, [Thomas M](https://www.mridulkthomas.com/)\*. Improving the efficiency of single-driver ecological experiments with Bayesian optimal experimental design. *bioRxiv* (2026). [\*equal contribution]{.pub-note}
+
+::: pub-cats
+[Experimental design]{.pub-cat}
+:::
+
+::::: pub-actions
+<a href="https://doi.org/10.64898/2026.05.28.728579" target="_blank" rel="noopener">Preprint »</a> <a href="https://github.com/raviranjan545/boed-paper-reproduction" target="_blank" rel="noopener">Code to reproduce the paper »</a> <a href="https://github.com/raviranjan545/boed-calculation" target="_blank" rel="noopener">Code to explore Bayesian optimal designs »</a>
+
+<details>
+
+<summary>TL;DR</summary>
+
+::: pub-reveal
+Bayesian optimal experimental designs are better than commonly used uniform designs for common single-driver ecological experiments for parameter estimation and predictive ability.
+:::
+
+</details>
+
+<details>
+
+<summary>Plain-language summary</summary>
+
+::: pub-reveal
+Ecological experiments are expensive, so it matters where you place your measurements. We use a statistical method called Bayesian optimal experimental design to choose the most informative measurement points in advance. We show that Bayesian optimal designs outperform commonly used uniform designs in estimating parameters and predicting growth. This lets researchers learn more about how an environmental driver affects organisms without running larger or costlier experiments.
+:::
+
+</details>
+:::::
+:::::::
+
+## Journal articles
+
+::::::: {.pub-item data-categories="coexistence theory"}
+**Ranjan R**, [Koffel T](https://thomaskoffel.wordpress.com/), [Klausmeier C](https://www.kbs.msu.edu/kbs-people/faculty/christopher-klausmeier/). The three-species problem: incorporating competitive asymmetry and intransitivity in modern coexistence theory. *Ecology Letters* 27(4): e14426 (2024).
+
+::: pub-cats
+[Species coexistence]{.pub-cat}
+:::
+
+::::: pub-actions
+<a href="https://doi.org/10.1111/ele.14426" target="_blank" rel="noopener">Article »</a> <a href="https://github.com/cklausme/lv3" target="_blank" rel="noopener">Code »</a>
+
+<details>
+
+<summary>TL;DR</summary>
+
+::: pub-reveal
+We mapped all the outcomes of three-species Lotka-Volterra competition in terms of two existing pairwise Modern Coexistence Theory (MCT) metrics (niche overlap and fitness differences) and a new triplet-only metric called cyclic asymmetry.
+:::
+
+</details>
+
+<details>
+
+<summary>Plain-language summary</summary>
+
+::: pub-reveal
+Classic ecological theory about competition is built mostly on pairs of species. We studied trios and thoroughly documented all possible competition outcomes. We showed that pair-based ecological theory cannot explain some three-species competition outcomes. We then plugged this gap by building additional theory relevant to three-species competition. This helps explain the diversity we see in real communities.
+:::
+
+</details>
+:::::
+:::::::
+
+::::::: {.pub-item data-categories="experimental-design"}
+[Thomas M](https://www.mridulkthomas.com/)\*, **Ranjan R**\*. Designing more informative multiple-driver experiments. *Annual Review of Marine Science* 16: 513–536 (2024). [\*equal contribution]{.pub-note}
+
+::: pub-cats
+[Experimental design]{.pub-cat} [Multiple drivers]{.pub-cat}
+:::
+
+::::: pub-actions
+<a href="https://www.annualreviews.org/doi/full/10.1146/annurev-marine-041823-095913" target="_blank" rel="noopener">Article »</a>
+
+<details>
+
+<summary>TL;DR</summary>
+
+::: pub-reveal
+Recommendations for designing experiments that reveal how multiple environmental drivers interact including a statistical framework new to ecology.
+:::
+
+</details>
+
+<details>
+
+<summary>Plain-language summary</summary>
+
+::: pub-reveal
+In nature, marine species rarely face just one stressor — temperature, light and nutrients change all at once. Experiments testing how these drivers combine and interact are large and expensive, therefore are rarely done. We recommend how to design experiments that reveal how several drivers interact, rather than testing them one at a time. Better designs mean clearer answers about how ecosystems respond to global change.
+:::
+
+</details>
+:::::
+:::::::
+
+::::::: {.pub-item data-categories="phytoplankton"}
+[Wierenga J](https://www.regenerativematerialecologies.com/joren-wierenga), [Thomas M](https://www.mridulkthomas.com/), **Ranjan R**, [Ibelings B](https://www.unige.ch/meco/en/equipe/bastiaan-ibelings). Complex effects of chytrids on *Planktothrix* growth across interacting temperature and light gradients. *ISME Communications* 2, 93 (2022).
+
+::: pub-cats
+[Multiple drivers]{.pub-cat}
+:::
+
+::::: pub-actions
+<a href="https://www.nature.com/articles/s43705-022-00178-5" target="_blank" rel="noopener">Article »</a>
+
+<details>
+
+<summary>TL;DR</summary>
+
+::: pub-reveal
+Using an experiment and a mathematical model exploring the temperature and light dependence of host-parasite dynamics, we show that the reason why the toxic bloom-forming cyanobacterium *P. rubescens* is mainly found in the relatively cold and dark lake metalimnion might be to avoid its chytrid parasite. 
+:::
+
+</details>
+
+<details>
+
+<summary>Plain-language summary</summary>
+
+::: pub-reveal
+Cyanobacteria (often called blue-green algae) can be attacked by fungal parasites called chytrids. We found that the effect of these parasites on algal growth is not fixed — it changes depending on the combination of temperature and light. The toxic cyanobacterium *P. rubescens* is usually only found in the dark, cold middle layer of a lake. We show that this could be because the cyanomacterium can avoid the parasite there. Predicting parasite impacts therefore requires considering the whole environment, not one factor at a time.
+:::
+
+</details>
+:::::
+:::::::
+
+::::::: {.pub-item data-categories="coexistence theory"}
+**Ranjan R**, [Klausmeier C](https://www.kbs.msu.edu/kbs-people/faculty/christopher-klausmeier/). How the resource supply distribution structures competitive communities. *Journal of Theoretical Biology* 538: 111054 (2022).
+
+::: pub-cats
+[Species coexistence]{.pub-cat}
+:::
+
+::::: pub-actions
+<a href="https://www.sciencedirect.com/science/article/pii/S0022519322000522" target="_blank" rel="noopener">Article »</a>
+
+<details>
+
+<summary>TL;DR</summary>
+
+::: pub-reveal
+The shape of the resource-supply distribution, not just its level, determines the traits of the competing species that survive.
+:::
+
+</details>
+
+<details>
+
+<summary>Plain-language summary</summary>
+
+::: pub-reveal
+Which species win in competition depends on the resources available. We show that the way the resource supply is spread out among resources of different types decides which competitors can coexist and what their traits are. This reframes how we think about competition in variable environments.
+:::
+
+</details>
+:::::
+:::::::
+
+::::::: {.pub-item data-categories="consumer-resource theory"}
+**Ranjan R**, [Bagchi S](https://sumantabagchi.weebly.com/). Functional response and body size in consumer–resource interactions: unimodality favors facilitation. *Theoretical Population Biology* 110: 25–35 (2016).
+
+::: pub-cats
+[Species coexistence]{.pub-cat}
+:::
+
+::::: pub-actions
+<a href="https://www.sciencedirect.com/science/article/pii/S0040580916300041" target="_blank" rel="noopener">Article »</a>
+
+<details>
+
+<summary>TL;DR</summary>
+
+::: pub-reveal
+When consumer functional responses are unimodal, the interaction between two competitors can shift from competition to facilitation.
+:::
+
+</details>
+
+<details>
+
+<summary>Plain-language summary</summary>
+
+::: pub-reveal
+When two consumer species compete for the same resource, classic ecological theory usually predict that one drives the other extinct. However, this prediction is made under the assumption that more resource concentration will lead to more consumption of the resource by a consumer. Sometimes, too much resource can become toxic and can lead to lesser consumption by the consumer. Under these conditions, the two competitors can actually help each other persist. This reveals a previously unknown route to coexistence.
+:::
+
+</details>
+:::::
+:::::::
+
+## In preparation
+
+::::::: {.pub-item data-categories="coexistence theory"}
+**Ranjan R**, [Koffel T](https://thomaskoffel.wordpress.com/), [Klausmeier C](https://www.kbs.msu.edu/kbs-people/faculty/christopher-klausmeier/). Multi-species coexistence along nutrient gradients. *In prep.* Draft available on request.
+
+::: pub-cats
+[Species coexistence]{.pub-cat}
+:::
+:::::::
+
+```{=html}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var buttons  = Array.prototype.slice.call(document.querySelectorAll('.pub-filter-btn'));
+  var items    = Array.prototype.slice.call(document.querySelectorAll('.pub-item'));
+  var sections = Array.prototype.slice.call(document.querySelectorAll('section.level2'));
+
+  // Read each paper's categories from its pills
+  items.forEach(function (item) {
+    item._cats = Array.prototype.slice
+      .call(item.querySelectorAll('.pub-cat'))
+      .map(function (c) { return c.textContent.trim(); });
+  });
+
+  function apply(filter) {
+    items.forEach(function (item) {
+      var show = (filter === '__all__') || (item._cats.indexOf(filter) !== -1);
+      item.style.display = show ? '' : 'none';
+    });
+    // Hide a section heading when none of its papers are visible
+    sections.forEach(function (sec) {
+      var secItems = sec.querySelectorAll('.pub-item');
+      if (secItems.length === 0) return;
+      var anyVisible = false;
+      Array.prototype.forEach.call(secItems, function (it) {
+        if (it.style.display !== 'none') anyVisible = true;
+      });
+      sec.style.display = anyVisible ? '' : 'none';
+    });
+  }
+
+  buttons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      buttons.forEach(function (b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      apply(btn.getAttribute('data-filter'));
+    });
+  });
+});
+</script>
+```

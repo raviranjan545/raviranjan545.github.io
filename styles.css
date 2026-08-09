@@ -1,0 +1,63 @@
+/* ── About page profile layout ────────────────────────── */
+.about-profile {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.about-profile img {
+  width: 220px;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .about-profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about-profile img {
+    width: 180px;
+  }
+}
+
+/* ── Publication list styling ────────────────────────── */
+.pub-entry {
+  margin-bottom: 1.5rem;
+  padding-left: 0.5rem;
+  border-left: 3px solid #dee2e6;
+}
+
+.pub-entry p {
+  margin-bottom: 0.25rem;
+}
+
+.pub-links a {
+  margin-right: 0.75rem;
+  font-size: 0.9rem;
+}
+
+/* ── Section spacing ─────────────────────────────────── */
+.section-block {
+  margin-bottom: 2.5rem;
+}
+
+/* ── Teaching entry styling ──────────────────────────── */
+.teaching-entry {
+  margin-bottom: 2rem;
+  padding: 1rem 1.25rem;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+}
+
+.teaching-entry h4 {
+  margin-bottom: 0.25rem;
+}
+
+.teaching-entry .role {
+  font-style: italic;
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+}

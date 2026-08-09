@@ -1,0 +1,16 @@
+---
+title: "Curriculum Vitae"
+---
+
+You can download my CV as a PDF below.
+
+<a href="files/ravi_ranjan_cv.pdf" class="btn btn-primary" target="_blank">
+<i class="bi bi-file-earmark-pdf"></i> Download CV (PDF)
+</a>
+
+<!--
+  To use this page:
+  1. Place your CV PDF in the files/ folder
+  2. Make sure the filename matches: files/ravi_ranjan_cv.pdf
+     (or update the link above to match your filename)
+-->

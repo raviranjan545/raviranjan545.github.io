@@ -1,0 +1,96 @@
+---
+title: "Teaching"
+toc: false
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+My goal as a teacher is to impart a sense of wonder and curiosity about the natural world in students while teaching them to think critically in a safe and inclusive space. I believe critical thinking is essential for students to evaluate information in other domains, consequently developing them into engaged citizens. 
+
+In my teaching, I am particularly passionate about engaging with empirical ecologists on two fronts: ecological theory and experimental design. I enjoy working with empirical ecologists to explore the role that theory can play in their own research and helping them resource-efficient, informative experiments to test the theory. 
+
+## Workshops
+
+::: course
+[Ecological theory for everyone: A practical introduction to engaging
+with theory in your own research, for those with little or no
+theoretical experience]{.course-title}<br> [ESA Annual Meeting, Salt
+Lake City · 2026]{.course-meta}
+
+[**Role:** Co-instructor]{.course-role}<br> [Instructors: [Caroline
+Farrior](https://integrativebio.utexas.edu/directory/caroline-farrior),
+**Ravi Ranjan**, [Robin Decker](https://robindecker.net), [Sun Yi
+Soh](https://scholar.google.com/citations?user=wJEudUQAAAAJ&hl=en)]{.course-instructors}
+:::
+
+:::: course
+[How to design better experiments?]{.course-title}<br> [GLEON
+Limnoseries · September 2025]{.course-meta}
+
+[**Role:** Instructor]{.course-role}<br> [Presented with [Mridul
+Thomas](https://www.mridulkthomas.com/)]{.course-instructors}
+
+::: pub-actions
+[Code »](https://github.com/mridulkthomas/experimental-design-limnoseries-workshop) [Recording »](https://www.youtube.com/watch?v=AyHqjPh5thw)
+:::
+::::
+
+## Michigan State University
+
+Teaching Fellow in the Enhancing Linkages Between Mathematics and
+Ecology (ELME) program.
+
+::: course
+[Theoretical Population and Community Ecology]{.course-title}<br> [ELME
+· Summer 2019]{.course-meta}
+
+[**Role:** Teaching Fellow]{.course-role}<br> [Instructor: [Thomas
+Koffel](https://thomaskoffel.wordpress.com/)]{.course-instructors}
+:::
+
+::: course
+[Introduction to Meta-Analysis in Ecology]{.course-title}<br> [ELME ·
+Summer 2019]{.course-meta}
+
+[**Role:** Teaching Fellow]{.course-role}<br> [Instructor: [Craig
+Osenberg](https://osenberglab.ecology.uga.edu/people/craig-osenberg/)]{.course-instructors}
+:::
+
+::: course
+[Introduction to Theoretical Ecology: Populations and Species
+Interactions]{.course-title}<br> [ELME · Summer 2018]{.course-meta}
+
+[**Role:** Teaching Fellow]{.course-role}<br> [Instructor: [Chad
+Brassil](https://biosci.unl.edu/person/chad-brassil)]{.course-instructors}
+:::
+
+::: course
+[Bayesian Models in Ecology]{.course-title}<br> [ELME · Summer
+2018]{.course-meta}
+
+[**Role:** Teaching Fellow]{.course-role}<br> [Instructor: [Inés
+Ibáñez](https://seas.umich.edu/research/faculty/ines-ibanez)]{.course-instructors}
+:::
+
+::: course
+[Structured Demographic Models for Population, Community, and
+Evolutionary Ecology]{.course-title}<br> [ELME · Summer
+2018]{.course-meta}
+
+[**Role:** Teaching Fellow]{.course-role}<br> [Instructor: [Tom E. X.
+Miller](https://profiles.rice.edu/faculty/tom-miller)]{.course-instructors}
+:::
+
+## Indian Institute of Science, Bangalore
+
+::: course
+[EC 201: Theoretical and Mathematical Ecology]{.course-title}<br> [An
+introductory course on theory in ecology for undergraduate and graduate
+students]{.course-meta}
+
+[**Role:** Teaching Assistant]{.course-role}<br> [Instructor: [Vishwesha
+Guttal](https://teelabiisc.wordpress.com/)]{.course-instructors}
+:::
+
+

@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - CNAME
+
+website:
+  title: "Ravi Ranjan"
+  description: "Community ecologist studying the generation and maintenance of diversity."
+  site-url: https://www.raviranjan.net
+  search: false
+
+  navbar:
+    background: primary
+    collapse: false
+    left:                     # page links sit next to the name on the left
+      - href: index.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+      - href: cv.qmd
+        text: CV
+    right:                    # social icons on the right
+      - text: "{{< fa solid envelope >}}"
+        href: mailto:ravi.ranjan@utexas.edu
+      - text: "{{< fa brands google-scholar >}}"
+        href: https://scholar.google.com/citations?hl=en&user=VPfJ8AsAAAAJ
+      - text: "{{< fa brands bluesky >}}"
+        href: https://bsky.app/profile/raviranjan.bsky.social
+      - text: "{{< fa brands github >}}"
+        href: https://github.com/raviranjan545
+      - text: "{{< ai inaturalist >}}"
+        href: https://www.inaturalist.org/people/ranjanravi
+
+  page-footer:
+    center:
+      - text: "© 2024 Ravi Ranjan"
+    right:
+      - text: "Built with Quarto"
+        href: https://quarto.org
+
+  open-graph: true
+
+format:
+  html:
+    theme:
+      - litera
+      - custom.scss
+    toc: false
+    link-external-newwindow: true   # external links open in a new tab

@@ -1,0 +1,203 @@
+/*-- scss:defaults --*/
+
+// ── Typography ──
+$font-size-root:   17px;   // try 16px for a touch smaller, 18px for larger
+$h1-font-size:     1.7rem;
+$h2-font-size:     1.3rem;
+$h3-font-size:     1.1rem;
+$h4-font-size:     1rem;
+
+$line-height-base: 1.5;
+
+// Darker navbar / link accent (deep navy blue)
+$primary:          #1d3557;
+
+
+/*-- scss:rules --*/
+
+// ── Tighten default vertical rhythm site-wide ─────────────
+p { margin-bottom: 0.6rem; }
+
+// ── Frozen navbar: keep it always visible on scroll ───────
+// Quarto's navbar is already fixed to the top; it just hides on
+// scroll-down via headroom.js. Cancel that so it never disappears.
+.headroom--unpinned {
+  transform: translateY(0) !important;
+}
+
+// ── Landing page: photo (left) + text (right) ───────
+.landing-grid {
+  display: flex;
+  gap: 2.25rem;
+  align-items: center;
+  min-height: 75vh;        // fill most of the vertical space
+  margin: 0 auto;
+  max-width: 860px;
+}
+
+.landing-photo {
+  flex: 0 0 auto;      // fixed-size photo, does not stretch
+}
+.landing-photo img {
+  width: 300px;        // Heiss-style small photo; adjust to taste
+  border-radius: 8px;
+  display: block;
+}
+
+.landing-text {
+  flex: 1 1 0;
+  min-width: 0;
+  font-size: 1.1rem;  // larger than body text
+}
+
+// Stack vertically on narrow screens
+@media (max-width: 768px) {
+  .landing-grid {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    min-height: 0;         // don't force full height when stacked
+  }
+  .landing-photo img { width: 210px; }
+}
+
+.landing-name {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+// ── Publications: filter controls ─────────────────────────
+.pub-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.75rem 0 1.5rem 0;
+}
+.pub-filter-btn {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  padding: 0.25rem 0.85rem;
+  border: 1px solid #d0d5db;
+  border-radius: 999px;
+  background: #fff;
+  color: #46525f;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.15s ease;
+}
+// Defensive: if the visual editor wraps button text in a <p>, keep it inline & centered
+.pub-filter-btn p { margin: 0; display: inline; }
+.pub-filter-btn:hover {
+  border-color: $primary;
+  color: $primary;
+}
+.pub-filter-btn.active {
+  background: $primary;
+  border-color: $primary;
+  color: #fff;
+}
+
+// ── Publications: list (tightened) ────────────────────────
+.pub-item {
+  margin-bottom: 0.55rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid #ecedf0;
+  font-size: 0.92rem;
+}
+.pub-item:last-child { border-bottom: none; }
+.pub-item p { margin-bottom: 0.15rem; }
+
+// Hyperlinks (co-authors + article links): blue, underline on hover only
+.pub-item a {
+  color: #2b6cb0;
+  text-decoration: none;
+}
+.pub-item a:hover { text-decoration: underline; }
+
+// Equal-contribution note
+.pub-note {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #6c757d;
+}
+
+// Category pills
+.pub-cats {
+  margin: 0.2rem 0 0.15rem 0;
+  line-height: 1.8;
+}
+.pub-cat {
+  display: inline-block;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 0.1rem 0.5rem;
+  margin-right: 0.25rem;
+  border-radius: 999px;
+  background-color: #eef1f4;
+  color: #46525f;
+}
+
+// ── Publications: actions row (links + collapsibles) ──────
+.pub-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem 0.9rem;
+  margin-top: 0.2rem;
+  font-size: 0.85rem;
+}
+// The visual editor may wrap the links in a <p>; keep them spaced regardless
+.pub-actions p { margin: 0; }
+.pub-actions a {
+  color: #2b6cb0;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 0.9rem;
+}
+.pub-actions a:hover { text-decoration: underline; }
+
+.pub-actions summary {
+  cursor: pointer;
+  color: #2b6cb0;
+  font-weight: 500;
+  list-style: none;
+  user-select: none;
+}
+.pub-actions summary::-webkit-details-marker { display: none; }
+.pub-actions summary::before { content: "\25B8  "; }        // ▸ when closed
+.pub-actions details[open] > summary::before { content: "\25BE  "; }  // ▾ when open
+
+// An opened block takes a full row, so its content sits below the row
+.pub-actions details[open] { flex-basis: 100%; }
+
+.pub-reveal {
+  margin-top: 0.3rem;
+  color: #444;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  max-width: 640px;
+}
+
+// ── Research page: smaller body text (matches landing) ────
+.small-body { font-size: 0.95rem; }
+
+// ── Teaching: standard course layout, no boxes ────────────
+.course {
+  margin-bottom: 1.3rem;
+  line-height: 1.5;
+}
+.course-title {
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+.course-meta {
+  color: #6c757d;
+  font-size: 0.85rem;
+}
+.course-role {
+  font-size: 1rem;
+}
+.course-instructors {
+  font-size: 1rem;
+}
