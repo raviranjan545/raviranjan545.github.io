@@ -8,11 +8,11 @@ editor:
 
 My goal as a teacher is to impart a sense of wonder and curiosity about the natural world in students while teaching them to think critically in a safe and inclusive space. I believe critical thinking is essential for students to evaluate information in other domains, consequently developing them into engaged citizens. 
 
-In my teaching, I am particularly passionate about engaging with empirical ecologists on two fronts: ecological theory and experimental design. I enjoy working with empirical ecologists to explore the role that theory can play in their own research and helping them resource-efficient, informative experiments to test the theory. 
+In my teaching, I am particularly passionate about engaging with empirical ecologists on two fronts: ecological theory and experimental design. I enjoy working with empirical ecologists to explore the role that theory can play in their own research and helping them develop resource-efficient, informative experiments to test the theory. 
 
 ## Workshops
 
-::: course
+:::: course
 [Ecological theory for everyone: A practical introduction to engaging
 with theory in your own research, for those with little or no
 theoretical experience]{.course-title}<br> [ESA Annual Meeting, Salt
@@ -22,7 +22,13 @@ Lake City · 2026]{.course-meta}
 Farrior](https://integrativebio.utexas.edu/directory/caroline-farrior),
 **Ravi Ranjan**, [Robin Decker](https://robindecker.net), [Sun Yi
 Soh](https://scholar.google.com/citations?user=wJEudUQAAAAJ&hl=en)]{.course-instructors}
+
+::: pub-actions
+[Slides »](https://farriorlab.github.io/theory-workshop/workshop-slides.html) [Workshop website »](https://farriorlab.github.io/theory-workshop/index.html)
 :::
+::::
+
+
 
 :::: course
 [How to design better experiments?]{.course-title}<br> [GLEON

@@ -2,15 +2,32 @@
 toc: false
 ---
 
+```{=html}
+<style>
+/* Landing page overrides — scoped here so they survive Quarto's CSS pipeline */
+.landing-text h1 {
+  font-size: 2rem !important;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+}
+.landing-text > p {
+  font-size: 0.9rem;
+  margin-bottom: 1.1rem;
+}
+</style>
+```
+
 ::: {.landing-grid}
 ::: {.landing-photo}
 ![](img/profile.jpeg)
 :::
 
 ::: {.landing-text}
-# Hi, there! {.landing-name}
+# Hi, there!
 
-I am a community ecologist broadly interested in the maintenance of diversity, especially in response to environmental gradients. Currently, I am a [Research Fellow](https://farriorlab.github.io/people.html) at the [Department of Integrative Biology, University of Texas at Austin](https://integrativebio.utexas.edu). 
+I am a community ecologist broadly interested in the maintenance of diversity, especially in response to environmental gradients. Currently, I am a [Research Fellow](https://farriorlab.github.io/people.html) at the [Department of Integrative Biology, University of Texas at Austin](https://integrativebio.utexas.edu).
 
 Earlier, I was a member of the HIFMB Postdoc Pool at the [Helmholtz Institute for Functional Marine Biodiversity (HIFMB)](https://hifmb.de), Oldenburg, Germany and an [Associate Junior Fellow](https://hanse-ias.de/en/the-institute/projects/postdoc-program) with the [Hanse-Wissenschaftskolleg Institute for Advanced Study](https://hanse-ias.de/en/), Delmenhorst, Germany. I completed my Ph.D. studying multi-species competition in natural communities at the [Program for Ecology, Evolutionary Biology and Behavior](https://eebb.natsci.msu.edu) and the [Department of Plant Biology, Michigan State University](https://plantbiology.natsci.msu.edu/).
 :::

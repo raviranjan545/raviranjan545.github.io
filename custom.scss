@@ -1,7 +1,7 @@
 /*-- scss:defaults --*/
 
 // ── Typography ──
-$font-size-root:   17px;   // try 16px for a touch smaller, 18px for larger
+$font-size-root:   17px;
 $h1-font-size:     1.7rem;
 $h2-font-size:     1.3rem;
 $h3-font-size:     1.1rem;
@@ -9,8 +9,13 @@ $h4-font-size:     1rem;
 
 $line-height-base: 1.5;
 
-// Darker navbar / link accent (deep navy blue)
+// Darker navbar accent (deep navy blue)
 $primary:          #1d3557;
+
+// Links site-wide: blue, underline only on hover
+$link-color:            #2b6cb0;
+$link-decoration:       none;
+$link-hover-decoration: underline;
 
 
 /*-- scss:rules --*/
@@ -26,20 +31,23 @@ p { margin-bottom: 0.6rem; }
 }
 
 // ── Landing page: photo (left) + text (right) ───────
+// Fixed, balanced sizing (photo anchors the height, text sits beside it).
 .landing-grid {
   display: flex;
-  gap: 2.25rem;
+  gap: 2rem;
   align-items: center;
-  min-height: 75vh;        // fill most of the vertical space
-  margin: 0 auto;
-  max-width: 860px;
+  margin: 1.5rem auto;
+  max-width: 850px;
 }
 
 .landing-photo {
   flex: 0 0 auto;      // fixed-size photo, does not stretch
 }
 .landing-photo img {
-  width: 300px;        // Heiss-style small photo; adjust to taste
+  width: 250px;
+  height: 300px;
+  object-fit: cover;        // crop to a consistent portrait box (keeps it tall)
+  object-position: center;  // keep the middle of the photo; change to 'top' if it clips the head
   border-radius: 8px;
   display: block;
 }
@@ -47,23 +55,15 @@ p { margin-bottom: 0.6rem; }
 .landing-text {
   flex: 1 1 0;
   min-width: 0;
-  font-size: 1.1rem;  // larger than body text
 }
-
 // Stack vertically on narrow screens
 @media (max-width: 768px) {
   .landing-grid {
     flex-direction: column;
     align-items: center;
     text-align: left;
-    min-height: 0;         // don't force full height when stacked
   }
-  .landing-photo img { width: 210px; }
-}
-
-.landing-name {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
+  .landing-photo img { width: 200px; height: 240px; }
 }
 
 // ── Publications: filter controls ─────────────────────────

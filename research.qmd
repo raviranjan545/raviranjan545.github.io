@@ -35,7 +35,7 @@ Interspecific competition is universal and structures natural communities across
 
 Collaborators: [Thomas Koffel](https://thomaskoffel.wordpress.com/), [Chris Klausmeier](https://www.kbs.msu.edu/kbs-people/faculty/christopher-klausmeier/)
 
-Key papers: Ranjan and Klausmeier 2022, Ranjan et al. 2024, Ranjan and Bagchi 2016
+Key papers: [Ranjan and Klausmeier 2022](https://www.sciencedirect.com/science/article/pii/S0022519322000522), [Ranjan et al. 2024](https://doi.org/10.1111/ele.14426), [Ranjan and Bagchi 2016](https://www.sciencedirect.com/science/article/pii/S0040580916300041)
 
 ![Three-species Lotka-Volterra competition outcomes when intransitivity is present](img/competition_image.png){width="80%"}
 
@@ -45,7 +45,7 @@ Community-level responses to environmental change ultimately depend on how indiv
 
 Collaborators: [Alexey Ryabov](https://scholar.google.com/citations?user=Dd4l-QEAAAAJ&hl=en&authuser=1), [Helmut Hillebrand](https://hifmb.de/people/helmut-hillebrand/), [Mridul Thomas](https://www.mridulkthomas.com/), [Bernd Blasius](https://www.berndblasius.de), [Kim Halsey](https://microbiology.oregonstate.edu/directory/kimberly-h-halsey), [Miriam Seifert](https://www.awi.de/en/about-us/organisation/staff/single-view/miriam-seifert.html)
 
-Key paper: Ranjan et al. 2026
+Key paper: [Ranjan et al. 2026](https://doi.org/10.64898/2026.06.01.729340)
 
 ![Influence of dilution rate on optimal allocation of carbon towards the Pentose Phosphate Pathway and nitrogen towards nutrient uptake in a chemostat as predicted by a) our model and b) empirical validation.](img/physiology_image.png){width="80%"}
 
@@ -61,6 +61,6 @@ Species growth rates always depend on multiple interacting environmental drivers
 
 Collaborator: [Mridul Thomas](https://www.mridulkthomas.com/)
 
-Key papers: Thomas and Ranjan 2024, Ranjan and Thomas 2026
+Key papers: [Thomas and Ranjan 2024](https://www.annualreviews.org/doi/full/10.1146/annurev-marine-041823-095913), [Ranjan and Thomas 2026](https://doi.org/10.64898/2026.05.28.728579)
 
 ![Bayesian optimal design for a Monod experiment when compared to a uniform design in terms of parameter estimation and prediction ability](img/design_image.png){width="80%"}

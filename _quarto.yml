@@ -13,7 +13,7 @@ website:
   navbar:
     background: primary
     collapse: false
-    left:                     # page links sit next to the name on the left
+    left:                     
       - href: index.qmd
         text: About
       - href: research.qmd
@@ -38,7 +38,7 @@ website:
 
   page-footer:
     center:
-      - text: "© 2024 Ravi Ranjan"
+      - text: "© 2026 Ravi Ranjan"
     right:
       - text: "Built with Quarto"
         href: https://quarto.org
@@ -51,4 +51,4 @@ format:
       - litera
       - custom.scss
     toc: false
-    link-external-newwindow: true   # external links open in a new tab
+    link-external-newwindow: true   
